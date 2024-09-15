@@ -33,7 +33,7 @@ function iniciarFunciones() {
     function funcionE(num1, num2) {
         alert("Has elegido RESTA DE LA DIVISIÓN");
         resultado = num1 % num2;
-        document.getElementById("la_p2").innerHTML = `La resta de la division de ${num1} y ${num2} = ${resultado}`; // Actualizar el contenido del <p>
+        document.getElementById("la_p2").innerHTML = `La resta de la division de ${num1} y ${num2} = ${resultado} - Esta es la resta de la División`; // Actualizar el contenido del <p>
     }
     
     switch (operacion) {
